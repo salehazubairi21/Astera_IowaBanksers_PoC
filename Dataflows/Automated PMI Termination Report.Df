@@ -1,0 +1,2058 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataflowDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.1.0.1323">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>D:\PreSales\Munira\Iowa Bankers\Dataflows\Automated PMI Termination Report.Df</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <UseLegacyParameterSyntax>false</UseLegacyParameterSyntax>
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>0eef6472-863c-4387-b22c-5746c9f7e0ab</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>0eef6472-863c-4387-b22c-5746c9f7e0ab</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ReportMining</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>460</Height>
+            <Width>228.08347</Width>
+            <X>81.85715</X>
+            <Y>96.42856</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>PMI_Termination_Report</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataUd>
+        <Name>PMI_Termination_Report</Name>
+        <EntityName>PMI_Termination_Report</EntityName>
+        <IsShared>false</IsShared>
+        <ParameterXml>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;DataObject Version="2" Name="PMI_Termination_Report"&gt;&lt;DataElement Name="FilePath" Value="{Variables.SourceFilePath}" /&gt;&lt;/DataObject&gt;</ParameterXml>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ReportLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>PMI_Termination_Report</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ReportMiningDefinition</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced>
+            <BaseLayout xsi:type="ReportLayout" IsHierarchicalFile="false">
+              <IsFolder>false</IsFolder>
+              <Id>0</Id>
+              <IsNewRecord>false</IsNewRecord>
+              <Name>PMI_Details</Name>
+              <Description />
+              <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+              <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+              <IsSharedLayout>false</IsSharedLayout>
+              <LayoutBuildingOptions>
+                <RecordType>ReportMiningDefinition</RecordType>
+                <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+                <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+              </LayoutBuildingOptions>
+              <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+              <Fields>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="6" DataType="String" IsPrimaryKey="false" Header="Field_0" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TERM_STATUS">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>7d85aab7-5f9a-4d47-ae22-9e2282a09a9d</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>1</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="9049857" MaxDecimalPlacesInLayoutBuilding="0" Length="11" DataType="Integer" IsPrimaryKey="false" Header="_000" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LOAN_NUMBER">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>375ba30a-4fa8-4e95-8ed6-5273bd5c5aa5</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>11</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="String" IsPrimaryKey="false" Header="Field_2" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="GSE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>38c068a1-732d-44da-beae-a22f7c50329d</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>26</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="40" MaxDecimalPlacesInLayoutBuilding="0" Length="3" DataType="Integer" IsPrimaryKey="false" Header="Field_3" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ST">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>665fa609-0c5c-4e73-8472-089bdaabe67c</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>30</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="Date" IsPrimaryKey="false" Header="Field_4" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="MIDPOINT_DATE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>32dc6099-c4c4-4d2d-be18-09ba3c900c47</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>34</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="Date" IsPrimaryKey="false" Header="Field_5" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TERM_DATE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>a9739a23-2b77-496a-894d-bb681b3cde7e</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>45</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="7" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="8" DataType="String" IsPrimaryKey="false" Header="Field_6" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="INV_CAT">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>1bd0409e-1d34-4611-bc48-a90d65620107</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>55</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="43" MaxDecimalPlacesInLayoutBuilding="0" Length="4" DataType="Integer" IsPrimaryKey="false" Header="_0" Index="7" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="MI_CO_PAYEE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>14f4c713-4ad4-4e50-992e-8699e2862cd6</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>64</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="Date" IsPrimaryKey="false" Header="Field_8" Index="8" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CLOSING_DATE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>bc2adbc0-8aff-4ca4-bb4a-6244fa69c111</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>76</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="81.3" MaxDecimalPlacesInLayoutBuilding="1" Length="5" DataType="Real" IsPrimaryKey="false" Header="_00" Index="9" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LTOV">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>4ee0fe52-6bb7-4717-8183-ff672249b7f3</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>92</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="82.6" MaxDecimalPlacesInLayoutBuilding="1" Length="5" DataType="Real" IsPrimaryKey="false" Header="Field_10" Index="10" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LTCV">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>cf6e6d9a-13fc-4f00-a0b8-fb9cf5c74d98</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>98</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="2" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="Integer" IsPrimaryKey="false" Header="Field_11" Index="11" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="STOPS_D">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>7066e3c0-fe86-4e6a-a620-2936fb051446</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>104</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="String" IsPrimaryKey="false" Header="Field_12" Index="12" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="STOPS_P">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>eaea11b7-f4ac-4369-8bf9-23784e6fff23</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>106</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="2" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="Integer" IsPrimaryKey="false" Header="Field_13" Index="13" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="STOPS_F">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>4bca8b6a-d62f-465e-92d4-ac53ec89af4d</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>108</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="21" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="22" DataType="String" IsPrimaryKey="false" Header="A" Index="14" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="MESSAGE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>0188b145-99a2-4e0f-8bad-f98f1fcca4fb</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>111</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="9" DataType="Date" IsPrimaryKey="false" Header="_0" Index="15" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="DUE_DATE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>ef76f1cf-ac07-4af9-8101-626cf7933732</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>1</StartLine>
+                  <StartColumn>1</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="237.9" MaxDecimalPlacesInLayoutBuilding="2" Length="7" DataType="Real" IsPrimaryKey="false" Header="Field_16" Index="16" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LATE_CHG_BAL">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>785559b8-91a9-4268-8dec-1304d80d346d</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>1</StartLine>
+                  <StartColumn>13</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="7" MaxNumericValueInLayoutBuilding="450000" MaxDecimalPlacesInLayoutBuilding="0" Length="8" DataType="Integer" IsPrimaryKey="false" Header="Field_17" Index="17" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ORIG_MTG_AMT">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>021f6a67-42cc-4e36-abef-5b46f80f263b</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>1</StartLine>
+                  <StartColumn>38</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="5" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="Integer" IsPrimaryKey="false" Header="Field_18" Index="18" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="PROP_TYPE">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>32b330c3-7247-4200-a706-ea416ed4b6fb</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>1</StartLine>
+                  <StartColumn>47</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="1" Length="3" DataType="Real" IsPrimaryKey="false" Header="FIELD_20" Index="19" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LTOA">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>f03f1f63-0d0f-4657-9c2f-297330604206</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>0</StartLine>
+                  <StartColumn>87</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="Integer" IsPrimaryKey="false" Header="FIELD_21" Index="20" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OCC_CD">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>7ede97c4-d5ac-4b10-8735-786b47e4bde3</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>1</StartLine>
+                  <StartColumn>52</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+                <ReportLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="Integer" IsPrimaryKey="false" Header="FIELD_22" Index="21" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ORIG_OCC">
+                  <FieldRoles>Input Output</FieldRoles>
+                  <UniqueId>7ec15d18-e248-49fe-9969-790a96a489ee</UniqueId>
+                  <RegressionType>None</RegressionType>
+                  <IsInput>true</IsInput>
+                  <IsOutput>true</IsOutput>
+                  <IsVariable>false</IsVariable>
+                  <HasCollections>false</HasCollections>
+                  <CompositeType>None</CompositeType>
+                  <CompositeComponentType>None</CompositeComponentType>
+                  <LineCount>1</LineCount>
+                  <PositionType>Specified</PositionType>
+                  <CaseSensitiveMatch>true</CaseSensitiveMatch>
+                  <RegularExpressionMatch>false</RegularExpressionMatch>
+                  <FieldLabelPosition>None</FieldLabelPosition>
+                  <StartLine>1</StartLine>
+                  <StartColumn>56</StartColumn>
+                  <VerticalSizeType>SpecifiedRows</VerticalSizeType>
+                  <LengthType>Specified</LengthType>
+                  <ValueIfNull>None</ValueIfNull>
+                  <RemoveTextQualifier>false</RemoveTextQualifier>
+                  <RemoveExtraSpacesInsideText>false</RemoveExtraSpacesInsideText>
+                  <RemoveLeadingSpaces>true</RemoveLeadingSpaces>
+                  <SpecificCharactersToBeRemoved />
+                  <RemoveSpecificCharacters>false</RemoveSpecificCharacters>
+                  <RemoveTrailingSpaces>true</RemoveTrailingSpaces>
+                  <RemoveAllwhiteSpaces>false</RemoveAllwhiteSpaces>
+                  <RemovePunctuations>false</RemovePunctuations>
+                  <IsCalculated>false</IsCalculated>
+                </ReportLayoutField>
+              </Fields>
+              <Children />
+              <Referenced />
+              <ValidationRules />
+              <EndType>LineCount</EndType>
+              <RegionFormat>Unknown</RegionFormat>
+              <autoLayoutFields>
+                <RegionContainsHeader>true</RegionContainsHeader>
+                <HeaderSpanOver>1</HeaderSpanOver>
+                <IsAutoGenerated>false</IsAutoGenerated>
+                <IsAutoCreateField>false</IsAutoCreateField>
+                <NoOfSelectedLines>1</NoOfSelectedLines>
+                <RegionNumber>0</RegionNumber>
+                <StartingLineNumber>0</StartingLineNumber>
+                <PreservedFieldNameIndexes />
+                <PreservedFieldNames />
+              </autoLayoutFields>
+              <Patterns>
+                <LinePatternBase xsi:type="LinePattern">
+                  <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                  <ApplyToLine>0</ApplyToLine>
+                  <IsRegEx>false</IsRegEx>
+                  <FloatFields>true</FloatFields>
+                  <IsFloatingPattern>false</IsFloatingPattern>
+                  <LineLength>0</LineLength>
+                  <PatternText>           ÑÑ                                                                                                                        </PatternText>
+                </LinePatternBase>
+              </Patterns>
+              <Pattern xsi:type="LinePattern">
+                <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+                <ApplyToLine>0</ApplyToLine>
+                <IsRegEx>false</IsRegEx>
+                <FloatFields>true</FloatFields>
+                <IsFloatingPattern>false</IsFloatingPattern>
+                <LineLength>0</LineLength>
+                <PatternText>           ÑÑ                                                                                                                        </PatternText>
+              </Pattern>
+              <ContentType>Report</ContentType>
+              <LineCount>2</LineCount>
+              <RegionType>Data</RegionType>
+              <IsContainer>false</IsContainer>
+              <IsOverlappedContainer>false</IsOverlappedContainer>
+              <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+              <patternRegionEnd />
+              <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+              <IsMultiColumnRegion>false</IsMultiColumnRegion>
+              <RegionColumnStarts />
+            </BaseLayout>
+          </Referenced>
+          <ValidationRules />
+          <EndType>LineCount</EndType>
+          <RegionFormat>Unknown</RegionFormat>
+          <autoLayoutFields>
+            <RegionContainsHeader>true</RegionContainsHeader>
+            <HeaderSpanOver>1</HeaderSpanOver>
+            <IsAutoGenerated>false</IsAutoGenerated>
+            <IsAutoCreateField>false</IsAutoCreateField>
+            <NoOfSelectedLines>2</NoOfSelectedLines>
+            <RegionNumber>0</RegionNumber>
+            <StartingLineNumber>0</StartingLineNumber>
+            <PreservedFieldNameIndexes />
+            <PreservedFieldNames />
+          </autoLayoutFields>
+          <Patterns>
+            <LinePatternBase xsi:type="LinePattern">
+              <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+              <ApplyToLine>0</ApplyToLine>
+              <IsRegEx>false</IsRegEx>
+              <FloatFields>true</FloatFields>
+              <IsFloatingPattern>false</IsFloatingPattern>
+              <LineLength>0</LineLength>
+              <PatternText />
+            </LinePatternBase>
+          </Patterns>
+          <Pattern xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText />
+          </Pattern>
+          <ContentType>Report</ContentType>
+          <LineCount>1</LineCount>
+          <RegionType>Top</RegionType>
+          <IsContainer>false</IsContainer>
+          <IsOverlappedContainer>false</IsOverlappedContainer>
+          <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+          <patternRegionEnd />
+          <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+          <IsMultiColumnRegion>false</IsMultiColumnRegion>
+          <RegionColumnStarts />
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <FilePath>\\astera.com\share\general\Sidra\PreSales\Iowa Bankers\Source Files\PR_R230614_S5PUP1.TXT</FilePath>
+        <CanStage>false</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <isDisabledFieldVisible>false</isDisabledFieldVisible>
+        <ReportMiningDefinitionFilePath>
+          <Path>D:\PreSales\Munira\Iowa Bankers\Report_Models\Automated PMI Termination Report.Rmd</Path>
+          <UncPath>D:\PreSales\Munira\Iowa Bankers\Report_Models\Automated PMI Termination Report.Rmd</UncPath>
+          <RelativePath>..\Report_Models\Automated PMI Termination Report.Rmd</RelativePath>
+        </ReportMiningDefinitionFilePath>
+        <FilePathResolved>
+          <Path>\\astera.com\share\general\Sidra\PreSales\Iowa Bankers\Source Files\PR_R230614_S5PUP1.TXT</Path>
+          <UncPath>\\astera.com\share\general\Sidra\PreSales\Iowa Bankers\Source Files\PR_R230614_S5PUP1.TXT</UncPath>
+        </FilePathResolved>
+      </DataflowItemDataUd>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>9fbe322e-737f-4903-bdde-d01de2203069</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>9fbe322e-737f-4903-bdde-d01de2203069</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DatabaseDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>494</Height>
+            <Width>180</Width>
+            <X>515.94055</X>
+            <Y>154.7619</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Write_To_MSSQL</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationDatabase>
+        <Name>Write_To_MSSQL</Name>
+        <EntityName>Write_To_MSSQL</EntityName>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Write_To_MSSQL</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Database</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="5" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="TERM_STATUS" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TERM_STATUS" DbDataTypeName="varchar" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="TERM_STATUS">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>7d85aab7-5f9a-4d47-ae22-9e2282a09a9d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="9049857" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="LOAN_NUMBER" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LOAN_NUMBER" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="LOAN_NUMBER">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>375ba30a-4fa8-4e95-8ed6-5273bd5c5aa5</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="GSE" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="GSE" DbDataTypeName="varchar" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="GSE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>38c068a1-732d-44da-beae-a22f7c50329d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="2" MaxNumericValueInLayoutBuilding="40" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="ST" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ST" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="ST">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>665fa609-0c5c-4e73-8472-089bdaabe67c</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="MIDPOINT_DATE" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="MIDPOINT_DATE" DbDataTypeName="datetime" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="MIDPOINT_DATE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>32dc6099-c4c4-4d2d-be18-09ba3c900c47</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="TERM_DATE" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TERM_DATE" DbDataTypeName="datetime" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="TERM_DATE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>a9739a23-2b77-496a-894d-bb681b3cde7e</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="7" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="INV_CAT" Index="6" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="INV_CAT" DbDataTypeName="varchar" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="INV_CAT">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1bd0409e-1d34-4611-bc48-a90d65620107</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="43" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="MI_CO_PAYEE" Index="7" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="MI_CO_PAYEE" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="MI_CO_PAYEE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>14f4c713-4ad4-4e50-992e-8699e2862cd6</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="CLOSING_DATE" Index="8" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="CLOSING_DATE" DbDataTypeName="datetime" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="CLOSING_DATE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>bc2adbc0-8aff-4ca4-bb4a-6244fa69c111</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="81.3" MaxDecimalPlacesInLayoutBuilding="1" Length="16" DataType="Real" IsPrimaryKey="false" Header="LTOV" Index="9" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LTOV" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="LTOV">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>4ee0fe52-6bb7-4717-8183-ff672249b7f3</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="82.6" MaxDecimalPlacesInLayoutBuilding="1" Length="16" DataType="Real" IsPrimaryKey="false" Header="LTCV" Index="10" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LTCV" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="LTCV">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>cf6e6d9a-13fc-4f00-a0b8-fb9cf5c74d98</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="2" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="STOPS_D" Index="11" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="STOPS_D" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="STOPS_D">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>7066e3c0-fe86-4e6a-a620-2936fb051446</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="STOPS_P" Index="12" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="STOPS_P" DbDataTypeName="varchar" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="STOPS_P">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>eaea11b7-f4ac-4369-8bf9-23784e6fff23</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="2" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="STOPS_F" Index="13" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="STOPS_F" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="STOPS_F">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>4bca8b6a-d62f-465e-92d4-ac53ec89af4d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="21" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="100" DataType="String" IsPrimaryKey="false" Header="MESSAGE" Index="14" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="MESSAGE" DbDataTypeName="varchar" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="MESSAGE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>0188b145-99a2-4e0f-8bad-f98f1fcca4fb</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="8" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="DUE_DATE" Index="15" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="DUE_DATE" DbDataTypeName="datetime" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="DUE_DATE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ef76f1cf-ac07-4af9-8101-626cf7933732</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="237.9" MaxDecimalPlacesInLayoutBuilding="2" Length="16" DataType="Real" IsPrimaryKey="false" Header="LATE_CHG_BAL" Index="16" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LATE_CHG_BAL" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="LATE_CHG_BAL">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>785559b8-91a9-4268-8dec-1304d80d346d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="7" MaxNumericValueInLayoutBuilding="450000" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="ORIG_MTG_AMT" Index="17" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ORIG_MTG_AMT" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="ORIG_MTG_AMT">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>021f6a67-42cc-4e36-abef-5b46f80f263b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="5" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="PROP_TYPE" Index="18" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="PROP_TYPE" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="PROP_TYPE">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>32b330c3-7247-4200-a706-ea416ed4b6fb</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="1" Length="16" DataType="Real" IsPrimaryKey="false" Header="LTOA" Index="19" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="LTOA" DbDataTypeName="decimal" DecimalLength="6" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="true" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="LTOA">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>f03f1f63-0d0f-4657-9c2f-297330604206</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="OCC_CD" Index="20" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="OCC_CD" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="OCC_CD">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>7ede97c4-d5ac-4b10-8735-786b47e4bde3</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="1" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="ORIG_OCC" Index="21" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="ORIG_OCC" DbDataTypeName="bigint" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int64" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="ORIG_OCC">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>7ec15d18-e248-49fe-9969-790a96a489ee</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="SqlServer" Server="" Database="RM_DEMO" Schema="" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="FD54880F06604C1D2CEDAB5B0E56E19A" TableName="PMI_Termination_Table" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter>
+              <DataProviderType>SqlServer</DataProviderType>
+            </providerFilter>
+            <UseSharedConnection>false</UseSharedConnection>
+            <SharedConnectionShareConnectionInstanceAmongDestinations xsi:nil="true" />
+            <SharedConnectionUseTransaction xsi:nil="true" />
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <WebAuthentication>
+              <AuthenticationMethod>None</AuthenticationMethod>
+              <ConsumerKey />
+              <ConsuerSecret />
+              <UserName />
+              <Password />
+              <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+            </WebAuthentication>
+            <IsErp>false</IsErp>
+            <SqlAnywhereAction>Connect_to_a_Running_DB_This_Computer</SqlAnywhereAction>
+            <SecurityToken />
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>-1</JobId>
+            <RedirectUri>http://localhost:8050/</RedirectUri>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+            <NoSqlProvider>MongoDb</NoSqlProvider>
+            <IsNoSql>false</IsNoSql>
+            <IsReplicaEnabled>false</IsReplicaEnabled>
+            <UseTLS>false</UseTLS>
+            <CursorTimeOut>600</CursorTimeOut>
+            <NumberOfRecordsToScan>100</NumberOfRecordsToScan>
+            <ReadPreference>Primary</ReadPreference>
+            <AuthenticationDatabase>admin</AuthenticationDatabase>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys />
+          <ReferencingForeignKeys />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" TrimStrings="true" ShowCollections="false">
+            <FilterRules />
+            <AuditFieldValueStore>File</AuditFieldValueStore>
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <PartitionKeyValues />
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
+              <Path />
+              <UncPath />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+          </DefaultReaderOptions>
+          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+            <IsolationLevel>Unspecified</IsolationLevel>
+            <MaxErrorCount>0</MaxErrorCount>
+            <KeyFields />
+            <TableInfo>
+              <TableType>Table</TableType>
+              <ColumnarTableType>None</ColumnarTableType>
+              <Schema />
+              <DataModelEntityType>Unknown</DataModelEntityType>
+              <DimensionType>None</DimensionType>
+              <IsQueryable>true</IsQueryable>
+              <IsCdcEnabled>false</IsCdcEnabled>
+              <IsUpdateable>true</IsUpdateable>
+              <IsIntersect>false</IsIntersect>
+            </TableInfo>
+            <TruncateTable>false</TruncateTable>
+            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+            <BulkCopyOptions>0</BulkCopyOptions>
+            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+            <DirectLoad>false</DirectLoad>
+            <TruncateToFit>false</TruncateToFit>
+            <UpdateConditionRules />
+            <WriteStrategy>AlwaysInsert</WriteStrategy>
+          </DefaultWriterOptions>
+          <PrimaryKey />
+          <AllowsScd3AndScd6FieldRoles>false</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <IsPushdown>false</IsPushdown>
+        <KeyFields />
+        <DbWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false">
+          <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+          <CheckForNulls>true</CheckForNulls>
+          <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+          <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+          <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+          <FilterRules />
+          <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+          <IsolationLevel>Unspecified</IsolationLevel>
+          <MaxErrorCount>0</MaxErrorCount>
+          <KeyFields>
+            <string />
+          </KeyFields>
+          <TableInfo>
+            <Name>PMI_Termination_Table</Name>
+            <Database>RM_DEMO</Database>
+            <TableType>Table</TableType>
+            <ColumnarTableType>None</ColumnarTableType>
+            <Schema />
+            <DataModelEntityType>Unknown</DataModelEntityType>
+            <DimensionType>None</DimensionType>
+            <IsQueryable>true</IsQueryable>
+            <IsCdcEnabled>false</IsCdcEnabled>
+            <IsUpdateable>true</IsUpdateable>
+            <IsIntersect>false</IsIntersect>
+            <ActionName>PMI_Termination_Table</ActionName>
+          </TableInfo>
+          <TruncateTable>false</TruncateTable>
+          <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+          <BulkCopyOptions>0</BulkCopyOptions>
+          <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+          <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+          <DirectLoad>false</DirectLoad>
+        </DbWriterOptions>
+        <PushdownExecutionInfo>
+          <AfterStatements />
+          <BeforeStatements />
+          <DmlStatements />
+          <IncrementalFiles />
+          <Sequences />
+        </PushdownExecutionInfo>
+        <ExportMode>false</ExportMode>
+        <DbInfo Port="1433" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="SqlServer" Server="" Database="RM_DEMO" Schema="" EncryptedUser="76A26DC57C9A1986286555D1009F8F23" EncryptedPassword="FD54880F06604C1D2CEDAB5B0E56E19A" TableName="PMI_Termination_Table" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter>
+            <DataProviderType>SqlServer</DataProviderType>
+          </providerFilter>
+          <UseSharedConnection>false</UseSharedConnection>
+          <SharedConnectionShareConnectionInstanceAmongDestinations xsi:nil="true" />
+          <SharedConnectionUseTransaction xsi:nil="true" />
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <WebAuthentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+            <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+          </WebAuthentication>
+          <IsErp>false</IsErp>
+          <SqlAnywhereAction>Connect_to_a_Running_DB_This_Computer</SqlAnywhereAction>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>-1</JobId>
+          <RedirectUri>http://localhost:8050/</RedirectUri>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          <NoSqlProvider>MongoDb</NoSqlProvider>
+          <IsNoSql>false</IsNoSql>
+          <IsReplicaEnabled>false</IsReplicaEnabled>
+          <UseTLS>false</UseTLS>
+          <CursorTimeOut>600</CursorTimeOut>
+          <NumberOfRecordsToScan>100</NumberOfRecordsToScan>
+          <ReadPreference>Primary</ReadPreference>
+          <AuthenticationDatabase>admin</AuthenticationDatabase>
+        </DbInfo>
+        <SharingConnection>false</SharingConnection>
+        <TruncateTable>false</TruncateTable>
+        <MatchingFields />
+        <MultiTableWrite>false</MultiTableWrite>
+        <PortType>OneForEachAction</PortType>
+        <WritePorts>Insert</WritePorts>
+        <SourceFieldPaths />
+        <UsesSourceFieldPaths>false</UsesSourceFieldPaths>
+      </DataflowItemDataDestinationDatabase>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>f85d7d51-119f-4011-a3bc-75f96820e35a</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>f85d7d51-119f-4011-a3bc-75f96820e35a</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Parameters</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>84.42859</X>
+            <Y>33.333344</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Variables</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataParameter>
+        <Name>Variables</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Parameters>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>SourceFilePath</Name>
+            <CurrentValueStr>d:\PreSales\Munira\Iowa Bankers\Source Files\PR_R230614_S5PUP1.TXT</CurrentValueStr>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+            <ParameterPath />
+          </ParameterInfoBase>
+        </Parameters>
+      </DataflowItemDataParameter>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps>
+    <FlowDocumentItemMap>
+      <UniqueId>f746ee3b-a0a8-4a65-b720-bb0536dec010</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.TERM_STATUS</Start>
+      <End>Write_To_MSSQL.Input_Insert.TERM_STATUS</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>67c4e72c-ac02-44e3-a4b0-73a0b38aa63a</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.LOAN_NUMBER</Start>
+      <End>Write_To_MSSQL.Input_Insert.LOAN_NUMBER</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>0454f29d-a1b7-472b-8e99-2d32a7966f59</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.GSE</Start>
+      <End>Write_To_MSSQL.Input_Insert.GSE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>19f3dd06-e0a8-4886-992d-9d28bfcfed12</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.ST</Start>
+      <End>Write_To_MSSQL.Input_Insert.ST</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>b6d06107-6da5-4c09-818e-8ee9275ca550</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.MIDPOINT_DATE</Start>
+      <End>Write_To_MSSQL.Input_Insert.MIDPOINT_DATE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>74f28148-47fb-4e2d-9275-8016c3bfc86c</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.TERM_DATE</Start>
+      <End>Write_To_MSSQL.Input_Insert.TERM_DATE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>017d7113-cb6f-4325-bee4-0595fadbc716</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.INV_CAT</Start>
+      <End>Write_To_MSSQL.Input_Insert.INV_CAT</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>3caf635e-d29b-4995-ba58-9de0a2c993f9</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.MI_CO_PAYEE</Start>
+      <End>Write_To_MSSQL.Input_Insert.MI_CO_PAYEE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>627e92fe-52d6-4a75-8c68-fae127fd257f</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.CLOSING_DATE</Start>
+      <End>Write_To_MSSQL.Input_Insert.CLOSING_DATE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>26f186fa-ca65-489a-a309-e4938597dd07</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.LTOV</Start>
+      <End>Write_To_MSSQL.Input_Insert.LTOV</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>ce1edda0-73f4-4ca0-acf5-ff658efca250</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.LTCV</Start>
+      <End>Write_To_MSSQL.Input_Insert.LTCV</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>faf43bf1-5939-47b2-a577-9cf9deac909b</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.STOPS_D</Start>
+      <End>Write_To_MSSQL.Input_Insert.STOPS_D</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>9f18e7d8-93bb-463c-b481-a5ab90b54bde</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.STOPS_P</Start>
+      <End>Write_To_MSSQL.Input_Insert.STOPS_P</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>5704bc38-9a2e-4baa-b789-ee7158b0bbed</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.STOPS_F</Start>
+      <End>Write_To_MSSQL.Input_Insert.STOPS_F</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>e6537489-df51-469f-8853-a09cbaf34bdb</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.MESSAGE</Start>
+      <End>Write_To_MSSQL.Input_Insert.MESSAGE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>87262b39-929d-4484-8408-809f41ba5c23</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.DUE_DATE</Start>
+      <End>Write_To_MSSQL.Input_Insert.DUE_DATE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>97573139-adc0-47c5-adae-e7067610d562</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.LATE_CHG_BAL</Start>
+      <End>Write_To_MSSQL.Input_Insert.LATE_CHG_BAL</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>244a9d30-40d9-49ab-9b27-045432888ca6</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.ORIG_MTG_AMT</Start>
+      <End>Write_To_MSSQL.Input_Insert.ORIG_MTG_AMT</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>a52b33de-c4a7-439d-b611-a59656ad7549</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.PROP_TYPE</Start>
+      <End>Write_To_MSSQL.Input_Insert.PROP_TYPE</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>96b59c3d-dd70-4ca3-8633-b7c11db812fb</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.LTOA</Start>
+      <End>Write_To_MSSQL.Input_Insert.LTOA</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>ed90afa6-0937-4fef-b008-d08a3b8e2b45</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.OCC_CD</Start>
+      <End>Write_To_MSSQL.Input_Insert.OCC_CD</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>a094515d-ef4a-4b0f-8ba4-f8993d5ecc0f</UniqueId>
+      <Start>PMI_Termination_Report.PMI_Details.ORIG_OCC</Start>
+      <End>Write_To_MSSQL.Input_Insert.ORIG_OCC</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>b8302a9e-4a29-4e7a-bb06-53ab609ab436</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>80.85715</X>
+        <Y>33.333344</Y>
+      </Location>
+      <Size>
+        <Width>631.0834</Width>
+        <Height>341.42856</Height>
+      </Size>
+      <X>80.85715</X>
+      <Y>33.333344</Y>
+      <Width>631.0834</Width>
+      <Height>341.42856</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>0.84</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>\\astera.com\share\general\Sidra\PreSales\Iowa Bankers\Demo.cprj</Repository>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</DataflowDocument>
