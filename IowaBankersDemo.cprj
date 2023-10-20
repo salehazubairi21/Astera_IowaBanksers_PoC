@@ -3,10 +3,11 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>D:\PreSales\Munira\Iowa Bankers\IowaBankersDemo.cprj</Name>
+  <Name>P:\TO\To_TimN\Astera\Git Projects\IowaBankersDemo.cprj</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <RegressionIgnore />
   <_TopFolder>
     <Name>IowaBankersDemo.cprj</Name>
     <ProjectType>Integration</ProjectType>
@@ -44,16 +45,58 @@
             <Name>Automated PMI Termination Report.Rmd</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>ReportMining</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Automated PMI Termination Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T11:19:56.916807-05:00</LastWriteTime>
+              <Length>53096</Length>
+              <FileType>Rmd</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>Participant Remittance Report.Rmd</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>ReportMining</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Participant Remittance Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T11:19:56.928804-05:00</LastWriteTime>
+              <Length>53909</Length>
+              <FileType>Rmd</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>ReportModel1.Rmd</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>ReportMining</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\ReportModel1.Rmd</Path>
+              <LastWriteTime>2023-10-20T11:19:56.939797-05:00</LastWriteTime>
+              <Length>14074</Length>
+              <FileType>Rmd</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
@@ -71,10 +114,19 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Northwest_20201113.txt</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Northwest_20201113_Readable.txt</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
-  <RegressionIgnore />
   <TopFolder>
     <Name>IowaBankersDemo.cprj</Name>
     <ProjectType>Integration</ProjectType>
@@ -112,16 +164,58 @@
             <Name>Automated PMI Termination Report.Rmd</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>ReportMining</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Automated PMI Termination Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T11:19:56.916807-05:00</LastWriteTime>
+              <Length>53096</Length>
+              <FileType>Rmd</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>Participant Remittance Report.Rmd</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>ReportMining</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Participant Remittance Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T11:19:56.928804-05:00</LastWriteTime>
+              <Length>53909</Length>
+              <FileType>Rmd</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>ReportModel1.Rmd</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>ReportMining</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\ReportModel1.Rmd</Path>
+              <LastWriteTime>2023-10-20T11:19:56.939797-05:00</LastWriteTime>
+              <Length>14074</Length>
+              <FileType>Rmd</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
@@ -139,10 +233,22 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Northwest_20201113.txt</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Northwest_20201113_Readable.txt</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </TopFolder>
+  <Version>1.3</Version>
   <RegressionProperties>
+    <DataValidationRecordsLimit>50</DataValidationRecordsLimit>
     <BaselineDirectory>
       <Path />
       <UncPath />
@@ -151,7 +257,7 @@
       <Path />
       <UncPath />
     </CurrentDirectory>
-    <ProjectPath>D:\PreSales\Munira\Iowa Bankers</ProjectPath>
+    <ProjectPath>\\ibfile\Public\TO\To_TimN\Astera\Git Projects</ProjectPath>
     <IsBasic>true</IsBasic>
   </RegressionProperties>
   <OpenFiles />
