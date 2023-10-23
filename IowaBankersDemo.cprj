@@ -3,7 +3,7 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>P:\TO\To_TimN\Astera\Git Projects\IowaBankersDemo.cprj</Name>
+  <Name>C:\Users\saleha.zubairi\Desktop\New folder (4)\IowaBankersDemo.cprj</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
@@ -28,10 +28,33 @@
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Dataflow1.Df</Name>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>EDI</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest_20201113.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest.Tpp</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest_20201113_Readable.txt</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest_20201113.txt</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
@@ -52,8 +75,8 @@
                   <Value>ReportMining</Value>
                 </ProjectProperty>
               </Properties>
-              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Automated PMI Termination Report.Rmd</Path>
-              <LastWriteTime>2023-10-20T11:19:56.916807-05:00</LastWriteTime>
+              <Path>C:\Users\saleha.zubairi\Desktop\New folder (4)\Report_Models\Automated PMI Termination Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T20:59:21.9465713+05:00</LastWriteTime>
               <Length>53096</Length>
               <FileType>Rmd</FileType>
               <Exists>true</Exists>
@@ -71,8 +94,8 @@
                   <Value>ReportMining</Value>
                 </ProjectProperty>
               </Properties>
-              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Participant Remittance Report.Rmd</Path>
-              <LastWriteTime>2023-10-20T11:19:56.928804-05:00</LastWriteTime>
+              <Path>C:\Users\saleha.zubairi\Desktop\New folder (4)\Report_Models\Participant Remittance Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T20:59:21.9465713+05:00</LastWriteTime>
               <Length>53909</Length>
               <FileType>Rmd</FileType>
               <Exists>true</Exists>
@@ -90,8 +113,8 @@
                   <Value>ReportMining</Value>
                 </ProjectProperty>
               </Properties>
-              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\ReportModel1.Rmd</Path>
-              <LastWriteTime>2023-10-20T11:19:56.939797-05:00</LastWriteTime>
+              <Path>C:\Users\saleha.zubairi\Desktop\New folder (4)\Report_Models\ReportModel1.Rmd</Path>
+              <LastWriteTime>2023-10-20T20:59:21.958576+05:00</LastWriteTime>
               <Length>14074</Length>
               <FileType>Rmd</FileType>
               <Exists>true</Exists>
@@ -113,16 +136,6 @@
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Northwest_20201113.txt</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Northwest_20201113_Readable.txt</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
       </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
@@ -147,10 +160,33 @@
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Dataflow1.Df</Name>
+          <ProjectItem xsi:type="ProjectItemFolder">
+            <Name>EDI</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
+            <Members>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest_20201113.Df</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest.Tpp</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest_20201113_Readable.txt</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+              <ProjectItem xsi:type="ProjectItemFile">
+                <Name>Northwest_20201113.txt</Name>
+                <ProjectType>Integration</ProjectType>
+                <VcAction>None</VcAction>
+              </ProjectItem>
+            </Members>
+            <IsExpanded>false</IsExpanded>
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
@@ -171,8 +207,8 @@
                   <Value>ReportMining</Value>
                 </ProjectProperty>
               </Properties>
-              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Automated PMI Termination Report.Rmd</Path>
-              <LastWriteTime>2023-10-20T11:19:56.916807-05:00</LastWriteTime>
+              <Path>C:\Users\saleha.zubairi\Desktop\New folder (4)\Report_Models\Automated PMI Termination Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T20:59:21.9465713+05:00</LastWriteTime>
               <Length>53096</Length>
               <FileType>Rmd</FileType>
               <Exists>true</Exists>
@@ -190,8 +226,8 @@
                   <Value>ReportMining</Value>
                 </ProjectProperty>
               </Properties>
-              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\Participant Remittance Report.Rmd</Path>
-              <LastWriteTime>2023-10-20T11:19:56.928804-05:00</LastWriteTime>
+              <Path>C:\Users\saleha.zubairi\Desktop\New folder (4)\Report_Models\Participant Remittance Report.Rmd</Path>
+              <LastWriteTime>2023-10-20T20:59:21.9465713+05:00</LastWriteTime>
               <Length>53909</Length>
               <FileType>Rmd</FileType>
               <Exists>true</Exists>
@@ -209,8 +245,8 @@
                   <Value>ReportMining</Value>
                 </ProjectProperty>
               </Properties>
-              <Path>\\ibfile\Public\TO\To_TimN\Astera\Git Projects\Report_Models\ReportModel1.Rmd</Path>
-              <LastWriteTime>2023-10-20T11:19:56.939797-05:00</LastWriteTime>
+              <Path>C:\Users\saleha.zubairi\Desktop\New folder (4)\Report_Models\ReportModel1.Rmd</Path>
+              <LastWriteTime>2023-10-20T20:59:21.958576+05:00</LastWriteTime>
               <Length>14074</Length>
               <FileType>Rmd</FileType>
               <Exists>true</Exists>
@@ -233,16 +269,6 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Northwest_20201113.txt</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Northwest_20201113_Readable.txt</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </TopFolder>
@@ -257,7 +283,7 @@
       <Path />
       <UncPath />
     </CurrentDirectory>
-    <ProjectPath>\\ibfile\Public\TO\To_TimN\Astera\Git Projects</ProjectPath>
+    <ProjectPath>C:\Users\saleha.zubairi\Desktop\New folder (4)</ProjectPath>
     <IsBasic>true</IsBasic>
   </RegressionProperties>
   <OpenFiles />

@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataflowDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.3.1.287">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\Users\saleha.zubairi\Desktop\New folder (4)\Dataflow2.Df</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <UseLegacyParameterSyntax>false</UseLegacyParameterSyntax>
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>778eb46e-2dc9-4fed-86fc-134b05f25284</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>778eb46e-2dc9-4fed-86fc-134b05f25284</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>EDISourceFile</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>511</Height>
+            <Width>200</Width>
+            <X>26</X>
+            <Y>66</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>EDISourceFile</Name>
+      </ActionProperties>
+      <DataflowItemDataEdiFileSource>
+        <Name>EDISourceFile</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>EDISourceFile</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Delimited</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <IsWebServerLogFile>false</IsWebServerLogFile>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MakeAllFieldsAsStringInBuildLayout="false" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="c:\Users\saleha.zubairi\Desktop\New folder (4)\Northwest_20201113_Readable.txt" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" AllowRecordDelimiterInsideField="false" FieldDelimiterString="&lt;Comma&gt;" RecordDelimiter="&#xD;&#xA;" QuoteChar="34">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path>c:\Users\saleha.zubairi\Desktop\New folder (4)\Northwest_20201113_Readable.txt</Path>
+              <UncPath>c:\Users\saleha.zubairi\Desktop\New folder (4)\Northwest_20201113_Readable.txt</UncPath>
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" AlwaysWriteQuoteChar="false" FieldDelimiter="," FieldEscapeType="SurroundWithQualifier" QuoteChar="34" QuoteEscape="0" RecordDelimiter="&#xD;&#xA;" NoDelimiter="false" FieldDelimiterString="&lt;Comma&gt;">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+          </DefaultWriterOptions>
+          <HierarchicalProperties>
+            <IsCaseSensitive>false</IsCaseSensitive>
+          </HierarchicalProperties>
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <FilePath>c:\Users\saleha.zubairi\Desktop\New folder (4)\Northwest_20201113_Readable.txt</FilePath>
+        <CanStage>true</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <Options>
+          <PartnerFilePath>
+            <Path>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</Path>
+            <UncPath>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</UncPath>
+            <RelativePath>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</RelativePath>
+          </PartnerFilePath>
+          <PrettyPrint>false</PrettyPrint>
+          <OmitBOM>false</OmitBOM>
+          <SingleTransactionPerFunctionalGroup>false</SingleTransactionPerFunctionalGroup>
+        </Options>
+        <EdiFilePath>
+          <Path>c:\Users\saleha.zubairi\Desktop\New folder (4)\Northwest_20201113_Readable.txt</Path>
+          <UncPath>c:\Users\saleha.zubairi\Desktop\New folder (4)\Northwest_20201113_Readable.txt</UncPath>
+        </EdiFilePath>
+        <TradePartnerProfilePath>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</TradePartnerProfilePath>
+      </DataflowItemDataEdiFileSource>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>1c37621d-c286-491f-bb3c-b75555c85461</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>1c37621d-c286-491f-bb3c-b75555c85461</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>EDIParser</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>341</Height>
+            <Width>200</Width>
+            <X>399</X>
+            <Y>66</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>EDIParser</Name>
+      </ActionProperties>
+      <DataflowItemDataEdiParser>
+        <Name>EDIParser</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <ISupportUniqueHeaders>true</ISupportUniqueHeaders>
+        <InputLayout IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="InterchangeControlNumber" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="InterchangeControlNumber">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <UniqueId>b417fea7-d10c-4849-80b9-eb30e7597985</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsVirtual>false</IsVirtual>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+              <MultipartFieldType>Text</MultipartFieldType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+              <Content />
+              <DestinationFolder />
+              <ContentType />
+              <DefaultName />
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FunctionGroupControlNumber" Index="1" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="FunctionGroupControlNumber">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <UniqueId>9bd45ad3-2252-4d22-9640-de21cfdadd85</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsVirtual>false</IsVirtual>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+              <MultipartFieldType>Text</MultipartFieldType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+              <Content />
+              <DestinationFolder />
+              <ContentType />
+              <DefaultName />
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="TransactionSetControlNumber" Index="2" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TransactionSetControlNumber">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <UniqueId>ba926ccc-605f-446b-b092-29a8d589e09d</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsVirtual>false</IsVirtual>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+              <MultipartFieldType>Text</MultipartFieldType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+              <Content />
+              <DestinationFolder />
+              <ContentType />
+              <DefaultName />
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="TransactionSetId" Index="3" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="TransactionSetId">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <UniqueId>8d83b6ef-54fb-4588-8833-112d5e08ff28</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsVirtual>false</IsVirtual>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+              <MultipartFieldType>Text</MultipartFieldType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+              <Content />
+              <DestinationFolder />
+              <ContentType />
+              <DefaultName />
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Text" Index="4" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Text">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <UniqueId>610e6844-181e-49ff-bc8c-b5965302ded7</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsVirtual>false</IsVirtual>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+              <MultipartFieldType>Text</MultipartFieldType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+              <Content />
+              <DestinationFolder />
+              <ContentType />
+              <DefaultName />
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Separators" Index="5" AllowsNull="true" IsDependent="false" IsCategorical="false" IsIncluded="true" IsFormulaField="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" IsLagVariable="false" TimeSeriesNullTreatment="None" Name="Separators">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <UniqueId>b499e98a-ffd1-4ee3-983f-e6ee9f1d7ace</UniqueId>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <IsVirtual>false</IsVirtual>
+              <IsDataValidationEnabled>true</IsDataValidationEnabled>
+              <MultipartFieldType>Text</MultipartFieldType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <SendValueAsPlaintext>false</SendValueAsPlaintext>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+              <AccessPermission>Self</AccessPermission>
+              <TimeToLive>1</TimeToLive>
+              <Content />
+              <DestinationFolder />
+              <ContentType />
+              <DefaultName />
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </InputLayout>
+        <RootNode>Root</RootNode>
+        <ShowErrorCollection>true</ShowErrorCollection>
+        <IsMultipleRecords>false</IsMultipleRecords>
+        <BuildOperationType>BuildOneRecordPerOutput</BuildOperationType>
+        <Options>
+          <PartnerFilePath>
+            <Path>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</Path>
+            <UncPath>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</UncPath>
+            <RelativePath>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</RelativePath>
+          </PartnerFilePath>
+          <PrettyPrint>false</PrettyPrint>
+          <OmitBOM>false</OmitBOM>
+          <SingleTransactionPerFunctionalGroup>false</SingleTransactionPerFunctionalGroup>
+          <Message>834</Message>
+          <MessageVersion>5010X220</MessageVersion>
+          <RepositoryType>System</RepositoryType>
+        </Options>
+        <TradePartnerProfilePath>c:\Users\saleha.zubairi\Desktop\New folder (4)\EdiPartner3.Tpp</TradePartnerProfilePath>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+      </DataflowItemDataEdiParser>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps>
+    <FlowDocumentItemMap>
+      <UniqueId>f8463a70-7e45-4e0a-a59d-afce43659609</UniqueId>
+      <Start>EDISourceFile.GSGE.Transaction.InterchangeControlNumber</Start>
+      <End>EDIParser.InterchangeControlNumber</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>bbef5ef0-8cdc-4bf4-992c-081c61c13937</UniqueId>
+      <Start>EDISourceFile.GSGE.Transaction.FunctionGroupControlNumber</Start>
+      <End>EDIParser.FunctionGroupControlNumber</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>6bab0513-5e02-4282-8805-c3dbf33253e9</UniqueId>
+      <Start>EDISourceFile.GSGE.Transaction.TransactionSetControlNumber</Start>
+      <End>EDIParser.TransactionSetControlNumber</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>64817471-4c4c-432c-af16-cc1b13980ddd</UniqueId>
+      <Start>EDISourceFile.GSGE.Transaction.TransactionSetId</Start>
+      <End>EDIParser.TransactionSetId</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>d6dce2c1-3b97-4bd9-aab8-282ceecbe53a</UniqueId>
+      <Start>EDISourceFile.GSGE.Transaction.Text</Start>
+      <End>EDIParser.Text</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>5a39f922-1705-4c5c-9671-020395060322</UniqueId>
+      <Start>EDISourceFile.GSGE.Transaction.Separators</Start>
+      <End>EDIParser.Separators</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>9ddf07e7-cbda-44ea-977c-a0167b772741</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>26</X>
+        <Y>66</Y>
+      </Location>
+      <Size>
+        <Width>605</Width>
+        <Height>542</Height>
+      </Size>
+      <X>26</X>
+      <Y>66</Y>
+      <Width>605</Width>
+      <Height>542</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <IsSelected>false</IsSelected>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>C:\Users\saleha.zubairi\Desktop\New folder (4)\IowaBankersDemo.cprj</Repository>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</DataflowDocument>
