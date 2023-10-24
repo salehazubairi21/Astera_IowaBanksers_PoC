@@ -158,6 +158,56 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>SFTP_EmailNotifications</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>Readme.Txt</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>3. JobCompletionAPI.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>1. SFTP.Sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>SharedWebConnection</Value>
+                </ProjectProperty>
+                <ProjectProperty>
+                  <Name>SharedActionName</Name>
+                  <Value>1. SFTP</Value>
+                </ProjectProperty>
+                <ProjectProperty>
+                  <Name>IsDetached</Name>
+                  <Value>0</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>C:\Users\saleha.zubairi\Desktop\iowa\SFTP_EmailNotifications\1. SFTP.Sact</Path>
+              <LastWriteTime>2023-10-25T00:45:17.7225005+05:00</LastWriteTime>
+              <Length>5521</Length>
+              <FileType>Sact</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>2. SFTP_Watch.Wfs</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
@@ -305,6 +355,56 @@
         <Members>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>Process_Automator_Workflow.Wfs</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>SFTP_EmailNotifications</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>Readme.Txt</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>3. JobCompletionAPI.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>1. SFTP.Sact</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+            <FileInfo>
+              <Properties>
+                <ProjectProperty>
+                  <Name>FlowTemplateName</Name>
+                  <Value>SharedWebConnection</Value>
+                </ProjectProperty>
+                <ProjectProperty>
+                  <Name>SharedActionName</Name>
+                  <Value>1. SFTP</Value>
+                </ProjectProperty>
+                <ProjectProperty>
+                  <Name>IsDetached</Name>
+                  <Value>0</Value>
+                </ProjectProperty>
+              </Properties>
+              <Path>C:\Users\saleha.zubairi\Desktop\iowa\SFTP_EmailNotifications\1. SFTP.Sact</Path>
+              <LastWriteTime>2023-10-25T00:45:17.7225005+05:00</LastWriteTime>
+              <Length>5521</Length>
+              <FileType>Sact</FileType>
+              <Exists>true</Exists>
+              <Version>1.3</Version>
+            </FileInfo>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>2. SFTP_Watch.Wfs</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>

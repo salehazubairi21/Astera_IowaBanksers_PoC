@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowDocument2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.4.1.154">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>\\astera.com\share\general\Saleha Zubairi\Demos\AsteraDataServices\Workflow4.Wfs</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <UseLegacyParameterSyntax>false</UseLegacyParameterSyntax>
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>529637fe-be85-4297-9a17-6a63c60431f4</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>529637fe-be85-4297-9a17-6a63c60431f4</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>FileSystemAction</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>314</X>
+            <Y>32</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>FileSystemAction</Name>
+      </ActionProperties>
+      <WorkflowItemDataFile>
+        <Name>FileSystemAction</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <FileTaskType>FileCopy</FileTaskType>
+        <SourcePath>
+          <Path>\\astera.com\share\general\Saleha Zubairi\Bugs\pub\Sequence200.xlsx</Path>
+          <UncPath>\\astera.com\share\general\Saleha Zubairi\Bugs\pub\Sequence200.xlsx</UncPath>
+        </SourcePath>
+        <DestinationPath>
+          <Path>C:\Users\saleha.zubairi\Desktop</Path>
+          <UncPath>C:\Users\saleha.zubairi\Desktop</UncPath>
+        </DestinationPath>
+        <OverwriteDestination>true</OverwriteDestination>
+        <ErrorIfNoSourceFilesFound>false</ErrorIfNoSourceFilesFound>
+      </WorkflowItemDataFile>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>ab288bb0-0947-4c3b-9fb1-c8c2aef96681</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>ab288bb0-0947-4c3b-9fb1-c8c2aef96681</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ContextInfo</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>42</X>
+            <Y>67.96354</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>ContextInfo</Name>
+      </ActionProperties>
+      <DataflowItemDataContext>
+        <Name>ContextInfo</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Parameters>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>Name</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>JobId</Name>
+            <DataType>Integer</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>ScheduledJobId</Name>
+            <DataType>Integer</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>ServerName</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>UserName</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>DroppedFilePath</Name>
+            <DataType>String</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+          <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+            <Name>SubmissionId</Name>
+            <DataType>Integer</DataType>
+            <Direction>Input</Direction>
+          </ParameterInfoBase>
+        </Parameters>
+        <IsSubmissionContext>true</IsSubmissionContext>
+      </DataflowItemDataContext>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>26a49ab7-a7ea-4312-b527-2127923a3803</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>26a49ab7-a7ea-4312-b527-2127923a3803</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>SendMail</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>654</X>
+            <Y>88.96353</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>ErrorNotification</Name>
+      </ActionProperties>
+      <WorkflowItemDataSendEmail>
+        <Name>ErrorNotification</Name>
+        <EntityName>ErrorNotification</EntityName>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <OAuth2AuthenticatorInfo xsi:type="OAuth2AuthenticatorInfoAzureSmtp">
+          <ClientId xsi:nil="true" />
+          <ClientSecret xsi:nil="true" />
+          <TenantId xsi:nil="true" />
+          <AuthorizationUri xsi:nil="true" />
+          <RedirectUrl xsi:nil="true" />
+          <AccountType xsi:nil="true" />
+          <Url>smtp.office365.com</Url>
+          <Port>587</Port>
+          <OAuth2Authenticator>Azure</OAuth2Authenticator>
+          <UseOAuth2Authentication>false</UseOAuth2Authentication>
+        </OAuth2AuthenticatorInfo>
+        <From>saleha.zubairi@astera.com</From>
+        <To>saleha.zubairi@astera.com</To>
+        <Subject>Error in SFTP File Download</Subject>
+        <Body>Error in receiving file from SFTP.
+</Body>
+        <IsBodyHtml>false</IsBodyHtml>
+        <EmailConnection>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <RequestTokenTimeout>60</RequestTokenTimeout>
+            <UserName />
+            <Password />
+            <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Url>https://emailserver</Url>
+          <Port>21</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>false</RequireSSL>
+          <UserName>
+            <E />
+          </UserName>
+          <Password>
+            <E />
+          </Password>
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Smtp</EmailProtocol>
+        </EmailConnection>
+      </WorkflowItemDataSendEmail>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>00000000-0000-0000-0000-000000000000</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>00000000-0000-0000-0000-000000000000</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>SendMail</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>648</X>
+            <Y>19.963524</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>Success</Name>
+      </ActionProperties>
+      <WorkflowItemDataSendEmail>
+        <Name>Success</Name>
+        <EntityName>Success</EntityName>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <OAuth2AuthenticatorInfo xsi:type="OAuth2AuthenticatorInfoAzureSmtp">
+          <ClientId xsi:nil="true" />
+          <ClientSecret xsi:nil="true" />
+          <TenantId xsi:nil="true" />
+          <AuthorizationUri xsi:nil="true" />
+          <RedirectUrl xsi:nil="true" />
+          <AccountType xsi:nil="true" />
+          <Url>smtp.office365.com</Url>
+          <Port>587</Port>
+          <OAuth2Authenticator>Azure</OAuth2Authenticator>
+          <UseOAuth2Authentication>false</UseOAuth2Authentication>
+        </OAuth2AuthenticatorInfo>
+        <From>saleha.zubairi@astera.com</From>
+        <To>saleha.zubairi@astera.com</To>
+        <Subject>SFTP File Download Successful</Subject>
+        <Body>SFTP file was downloaded successfully
+</Body>
+        <IsBodyHtml>false</IsBodyHtml>
+        <EmailConnection>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <RequestTokenTimeout>60</RequestTokenTimeout>
+            <UserName />
+            <Password />
+            <TokenExpiryDateTime>0001-01-01T00:00:00</TokenExpiryDateTime>
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Url>https://emailserver</Url>
+          <Port>21</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>false</RequireSSL>
+          <UserName>
+            <Value />
+            <E />
+          </UserName>
+          <Password>
+            <Value />
+            <E />
+          </Password>
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Smtp</EmailProtocol>
+        </EmailConnection>
+      </WorkflowItemDataSendEmail>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>ac28c97e-4c52-4f1d-b7c1-9eb648d939ea</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>ac28c97e-4c52-4f1d-b7c1-9eb648d939ea</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RunDataflow2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>200</Height>
+            <Width>200</Width>
+            <X>924</X>
+            <Y>59.963547</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <DoNotPushdown>false</DoNotPushdown>
+        <Name>CallJobCompletionAPI</Name>
+      </ActionProperties>
+      <WorkflowItemDataStartDataflowJob2>
+        <Name>CallJobCompletionAPI</Name>
+        <EntityName>CallJobCompletionAPI</EntityName>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <JobFilePath>
+          <Path>\\astera.com\share\general\Saleha Zubairi\Demos\AsteraDataServices\JobCompletionAPI.Df</Path>
+          <UncPath>\\astera.com\share\general\Saleha Zubairi\Demos\AsteraDataServices\JobCompletionAPI.Df</UncPath>
+          <RelativePath>JobCompletionAPI.Df</RelativePath>
+        </JobFilePath>
+        <ServerPort>0</ServerPort>
+        <ParameterInfo>
+          <AllowsSharedActions>true</AllowsSharedActions>
+          <AllowsReplacementCharacter>false</AllowsReplacementCharacter>
+          <AllowsFileIterators>false</AllowsFileIterators>
+          <ActionParameters>
+            <ActionParameterInfo>
+              <Name>Client</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters />
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>APIConnection</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>AccessToken</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterRestApiConnectInfo">
+                  <Name>RestApiConnectInfo</Name>
+                  <CurrentValueStr>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;RestApiConnectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;BaseUrl&gt;https://myserver.com&lt;/BaseUrl&gt;&lt;Timeout&gt;5000&lt;/Timeout&gt;&lt;RestApiSecurities /&gt;&lt;AuthenticationInfo&gt;&lt;Name /&gt;&lt;ApiKeyValue /&gt;&lt;ApiKeyLocation&gt;Header&lt;/ApiKeyLocation&gt;&lt;Password /&gt;&lt;oAuthFlowObjectType&gt;Implicit&lt;/oAuthFlowObjectType&gt;&lt;ClientSecret /&gt;&lt;TokenSecret /&gt;&lt;IncludeSSLCertificate&gt;false&lt;/IncludeSSLCertificate&gt;&lt;IgnoreCertificateErrors&gt;false&lt;/IgnoreCertificateErrors&gt;&lt;ApiSecuritySchemeType&gt;NoAuth&lt;/ApiSecuritySchemeType&gt;&lt;ProvideTokenManually&gt;false&lt;/ProvideTokenManually&gt;&lt;AwsSignature&gt;&lt;AccessKey /&gt;&lt;SecretKey /&gt;&lt;/AwsSignature&gt;&lt;/AuthenticationInfo&gt;&lt;Parameters /&gt;&lt;IsCustomApiSet&gt;false&lt;/IsCustomApiSet&gt;&lt;AddClientCertificates&gt;false&lt;/AddClientCertificates&gt;&lt;Name&gt;APIConnection&lt;/Name&gt;&lt;EnableLogging&gt;false&lt;/EnableLogging&gt;&lt;/RestApiConnectInfo&gt;</CurrentValueStr>
+                  <DataType>RestApiInfo</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+          </ActionParameters>
+        </ParameterInfo>
+        <ResumeActionType>Rerun</ResumeActionType>
+        <SavedOutboundMeta>
+          <Children />
+          <Elements />
+          <Referenced>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <CoreDbType>NVarChar</CoreDbType>
+                  <Name>$JobFilePath</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Input</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+              <Indicator>None</Indicator>
+            </MetaBaseOfMetaElement>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <CoreDbType>NVarChar</CoreDbType>
+                  <Name>Status</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <CoreDbType>NVarChar</CoreDbType>
+                  <Name>ErrorMessage</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <CoreDbType>NVarChar</CoreDbType>
+                  <Name>ErrorStack</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <CoreDbType>Boolean</CoreDbType>
+                  <Name>CompletedSuccessfully</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>Boolean</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <CoreDbType>Int64</CoreDbType>
+                  <Name>JobId</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <CoreDbType>Int64</CoreDbType>
+                  <Name>ParentJobId</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+                <MetaElement>
+                  <CoreDbType>Int64</CoreDbType>
+                  <Name>SessionId</Name>
+                  <HasCollections>false</HasCollections>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Output</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+              <Indicator>None</Indicator>
+            </MetaBaseOfMetaElement>
+          </Referenced>
+          <Name>CallJobCompletionAPI</Name>
+          <InboundPortVisible>true</InboundPortVisible>
+          <OutboundPortVisible>true</OutboundPortVisible>
+          <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+          <IsEmbeddedMember>false</IsEmbeddedMember>
+          <Indicator>None</Indicator>
+        </SavedOutboundMeta>
+        <RegressionType>None</RegressionType>
+        <IsPushdown>false</IsPushdown>
+      </WorkflowItemDataStartDataflowJob2>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links>
+    <FlowDocumentItemLink>
+      <UniqueId>d781682d-cb81-42c0-be8d-99586a1f8c77</UniqueId>
+      <Start>FileSystemAction</Start>
+      <End>ErrorNotification</End>
+      <LinkType>Error</LinkType>
+    </FlowDocumentItemLink>
+    <FlowDocumentItemLink>
+      <UniqueId>8292d099-2592-4fae-ae16-6222a985365c</UniqueId>
+      <Start>FileSystemAction</Start>
+      <End>Success</End>
+      <LinkType>Normal</LinkType>
+    </FlowDocumentItemLink>
+    <FlowDocumentItemLink>
+      <UniqueId>921f89fb-1233-49f9-9e84-b32f992d56dc</UniqueId>
+      <Start>Success</Start>
+      <End>CallJobCompletionAPI</End>
+      <LinkType>Normal</LinkType>
+    </FlowDocumentItemLink>
+    <FlowDocumentItemLink>
+      <UniqueId>fdd6440c-a185-47b8-8d48-6abc75176dd1</UniqueId>
+      <Start>ErrorNotification</Start>
+      <End>CallJobCompletionAPI</End>
+      <LinkType>Normal</LinkType>
+    </FlowDocumentItemLink>
+  </Links>
+  <Maps>
+    <FlowDocumentItemMap>
+      <UniqueId>3ebcd4f3-4d2e-4c8b-af98-c96de0a4af26</UniqueId>
+      <Start>ContextInfo.DroppedFilePath</Start>
+      <End>FileSystemAction.Input.SourcePath</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>7b593282-2d22-44a3-88fd-658fa2bf5964</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>42</X>
+        <Y>19.963524</Y>
+      </Location>
+      <Size>
+        <Width>1114</Width>
+        <Height>289</Height>
+      </Size>
+      <X>42</X>
+      <Y>19.963524</Y>
+      <Width>1114</Width>
+      <Height>289</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>275</X>
+      <Y>-6.0364575</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <IsSelected>false</IsSelected>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <Repository>\\astera.com\share\general\Saleha Zubairi\Demos\AsteraDataServices\ADS.cprj</Repository>
+</WorkflowDocument2>
