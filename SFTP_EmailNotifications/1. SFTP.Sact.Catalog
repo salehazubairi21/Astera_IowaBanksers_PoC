@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatalogDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="10.3.1.287">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>_1_SFTP_Sact</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <Namespace>IowaBankersDemo.SFTP_EmailNotifications</Namespace>
+  <ShortDescription />
+  <ArtifactFileType>Sact</ArtifactFileType>
+  <PublishToCatalog>
+    <SerialKeyValuePairOfStringBoolean>
+      <Key>_1_SFTP_Sact</Key>
+      <Value>true</Value>
+    </SerialKeyValuePairOfStringBoolean>
+  </PublishToCatalog>
+  <IsNameLocked>false</IsNameLocked>
+  <IsNamespaceLocked>false</IsNamespaceLocked>
+</CatalogDocument>

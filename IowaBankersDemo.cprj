@@ -205,6 +205,11 @@
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>1. SFTP.Sact.Catalog</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
@@ -405,6 +410,11 @@
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>2. SFTP_Watch.Wfs</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>1. SFTP.Sact.Catalog</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
